@@ -1,0 +1,23 @@
+{
+  "name": "Search YouTube for",
+  "version": "1.0",
+  
+  "manifest_version": 2,
+  
+  "description": "Adds a 'Search YouTube for ...' option into the right-click menu",
+
+  "icons": {
+    "16": "YouTube-Search16.png",
+    "48": "YouTube-Search48.png",
+    "128": "YouTube-Search128.png"
+  },
+
+  "permissions": [
+    "contextMenus"
+  ],
+
+  "background": {
+    "scripts": ["script.js"],
+    "persistent": false
+  }
+}
